@@ -1,0 +1,18 @@
+
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\A \uni0F40 \uni85CF ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
+table BASE {
+  HorizAxis.BaseTagList hang ideo idtp romn;
+  HorizAxis.BaseScriptList
+	hani ideo 0 -150 520 0,
+	latn romn 0 0 0 0,
+	tibt hang 310 0 0 0;
+} BASE;
+
