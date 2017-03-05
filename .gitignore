@@ -27,3 +27,12 @@
 *.exe
 *.out
 *.app
+
+# libtool (in test)
+.dirstamp
+.libs/
+*.l[ao]
+*~
+
+# compiled ttfs
+*.ttf

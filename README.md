@@ -7,9 +7,20 @@ The goal of this repository is to:
 
 See also [resources on the BASE feature](https://github.com/eroux/otf-base-hang).
 
-## Fonts
+## Building
 
-See [fonts/](fonts/) directory for some fonts supporting various baselines and BASE features.
+First build harfbuzz in the submodule (see [harfbuzz build doc](https://github.com/behdad/harfbuzz/blob/master/BUILD.md)):
+
+```
+$ git submodule update --init
+$ cd harfbuzz
+$ ./autogen.sh
+$ make
+```
+
+Then build fonts (see [fonts/](fonts/) directory).
+
+Then you can [run tests](tests/) or see the demo (TODO).
 
 ## License
 
