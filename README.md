@@ -3,6 +3,7 @@
 The goal of this repository is to:
 - test the [harfbuzz](https://github.com/behdad/harfbuzz) implementation of the BASE feature handling
 - provide a demo of how applications should handle the BASE feature
+- provide models for font designers
 
 See also [resources on the BASE feature](https://github.com/eroux/otf-base-hang).
 
